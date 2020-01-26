@@ -1,0 +1,47 @@
+/*basics*/
+body {
+	padding: 2vw;
+	background-color:whitesmoke;
+	font-family:sans-serif;
+	width: 96vw;
+}
+
+a {
+	color:dimgrey;
+	text-decoration:none;
+}
+h1 {
+	font-size:3.5em;
+	letter-spacing:-0.05em;
+	margin-bottom:0;
+	text-transform:uppercase;
+}
+a:hover {
+	color: rebeccapurple;
+}
+ul {
+	display:inline-block;
+}
+li {
+	padding-top:1em;
+}
+/*header*/
+.menu {
+	text-align:bottom;
+	position:relative;
+}
+
+.sitelogo {
+	width: 60vw;
+}
+.menulinks {
+	position:absolute;
+	right:0;
+	bottom:0;
+	font-size:2em;
+		}
+/*content*/
+.content {
+	width:60vw;
+	margin-top:2.5em;
+}
